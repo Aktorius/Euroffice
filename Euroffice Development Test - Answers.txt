@@ -1,0 +1,49 @@
+# Euroffice Development Test - Answers
+
+1. How long did you spend on the coding test?
+	* 2 hours. I spent 30 minutes for the analysis part and 1h30 minutes to develop and test the application
+	
+2. What would you change / implement in your application given more time?
+	* I would use a TDD approach, I have decided not to do it here because of the time limit
+	* I would add some features to the app like controls with the images, creating an external database, formating the size of the images to be the same. It is always possible to improve an app so the list here can be very long.
+
+3. Did you use IOC? Please explain your reasons either way.
+	* I didn't on this occasion. The reason is that the features developed for this exercise are really simple, and taking into account the time limit I didn't want to spend too much time on the analysis. The IoC principle is very good but would have given me more work to do.
+
+4. How would you debug an issue in production code?
+	* To avoid working on the production environment I would clone the code on my local machine, find and fix the issue and then redeploy in production when the problem is solved.
+
+5. What improvements would you make to the cat API?
+	* Made a responsive app that detects what is the kind of device the users accesses the app with. It should'nt be the user who has to press "mobile" to switch to a mobile version
+
+6. What are you two favourite frameworks for .Net?
+	* MVC and Entity Framework. What I really like about those framework is that when building an application from scratch it is very quick to see a result. With my small app here, I have a working web app that could be deployed on the cloud (of course the app is very basic)
+
+7. What is your favourite new feature in .Net?
+	* The conversion of Winforms apps in UWP apps. According to me winforms technology is old and should be replaced. There are still a lot of companies developping winforms apps and I think that this feature might change their point of view.
+
+8. Describe yourself in JSON.
+	* {
+		"Introduction": 
+			{
+				"LastName": "Miri",
+				"FirstName": "Tarik",
+				"Age" : "28",
+				"Gender": "Male",
+				"Nationality" : "Belgian",
+				"Hobbies": [
+					{
+						"Title": "Watching movies",
+						"Genre": "Relaxing"
+					},
+					{
+						"Title": "Learning new things",
+						"Genre": "Intellectual"
+					},
+					{
+						"Title": "Having a beer with friends",
+						"Genre": "Alcoholic"
+					}
+				]
+			}
+		}
